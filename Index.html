@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;  charset=ISO-8859-1" />
+    <title>mingolandia</title>
+  </head>
+  <body bgcolor="#7B869A">
+    <!-- URL's used in the movie -->
+    <object
+      classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000"
+      codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,0,0"
+    >
+      <param name="movie" value="MingusRagnarokSim.swf" />
+      <param name="quality" value="high" />
+      <param name="bgcolor" value="#7B869A" />
+      <embed
+        src="MingusRagnarokSim.swf"
+        id="swf"
+        quality="high"
+        bgcolor="#7B869A"
+        NAME="mingolandia"
+        ALIGN=""
+        type="application/x-shockwave-flash"
+        PLUGINSPAGE="http://www.macromedia.com/go/getflashplayer"
+      />
+    </object>
+
+    <script>
+      const width =
+        window.innerWidth ||
+        document.documentElement.clientWidth ||
+        document.body.clientWidth;
+
+      const height =
+        window.innerHeight ||
+        document.documentElement.clientHeight ||
+        document.body.clientHeight;
+
+      const swf = document.getElementById("swf");
+
+      swf.setAttribute("height", height - 20);
+      swf.setAttribute("width", width - 20);
+    </script>
+  </body>
+</html>
