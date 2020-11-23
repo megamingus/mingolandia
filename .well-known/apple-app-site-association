@@ -1,0 +1,15 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "823N8XU8B8.co.mural.iOS",
+        "paths": [
+          "/login",
+          "/login*",
+          "*"
+        ]
+      }
+    ]
+  }
+}
